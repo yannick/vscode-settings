@@ -1,11 +1,14 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "editor.wrappingColumn": 900,
+
         // Path of the workspace-d executable. Path can be omitted if in $PATH or installed using code-d
     "d.workspacedPath": "workspace-d",
 
     // Array of paths to phobos and D runtime for automatic inclusion for auto completion
     "d.stdlibPath": [
-        "/usr/local/Cellar/dmd/2.072.0/include/dlang/dmd"
+        "/usr/local/Cellar/dmd/2.072.0/include/dlang/dmd",
+        "/usr/include/dlang/dmd"
     ],
 
         // Enable usage data and errors to be sent to Microsoft.

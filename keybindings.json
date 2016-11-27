@@ -1,5 +1,34 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {"key": "cmd+b", "command": "code-d.build"},
-    {"key": "cmd+shift+k", "command": "code-d.restartServer"}
+    {"key": "cmd+shift+k", "command": "code-d.restartServer"},
+
+    {
+        "key": "ctrl+enter",
+        "command": "editor.action.selectAllMatches",
+        "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    }
 ]
